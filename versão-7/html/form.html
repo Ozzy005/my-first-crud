@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de pessoa</title>
+    <!--<link href="css/reset.css" rel="stylesheet" type="text/css" media="screen"/>-->
+    <link href="css/form.css" rel="stylesheet" type="text/css" media="screen"/>
+</head>
+<body>
+  <div class="A">
+    <div class="AA">
+      <span class="AA-1 L">{modo}</span>
+    </div>
+    <form class="AB" enctype="multipart/form-data" method="POST" action="index.php?class=PessoaForm&method=save">
+      <div class="AB-1 P">
+        <label class="AB-1-1 L">Código</label>
+        <input class ="AB-1-2 L" name="id" readonly="1" type="text" value="{id}">
+      </div>
+      <div class="AB-2 P">
+        <label class="AB-2-1 L">Nome</label>
+        <input class="AB-2-2 L" name="nome" type="text" value="{nome}">
+      </div>
+      <div class="AB-3 P">
+        <label class="AB-3-1 L">Endereço</label>
+        <input class="AB-3-2 L" name="endereco" type="text" value="{endereco}">
+      </div>
+      <div class="AB-4 P">
+        <label class="AB-4-1 L">Bairro</label>
+        <input class="AB-4-2 L" name="bairro" type="text" value="{bairro}">
+      </div>
+      <div class="AB-5 P">
+        <label class="AB-5-1 L">Telefone</label>
+        <input class="AB-5-2 L" name="telefone" type="text" value="{telefone}">
+      </div>
+      <div class="AB-6 P">
+        <label class="AB-6-1 L">Email</label>
+        <input class="AB-6-2 L" name="email" type="text" value="{email}">
+      </div>
+      <div class="AB-7 P">
+        <label class="AB-7-1 L">Cidade</label>
+        <select class="AB-7-2 L" name="id_cidade">{cidades}</select>
+      </div>
+      <div class="AB-8 P">
+        <div class="AB-8-1 L">
+          <button class="AB-8-1-1" type="button" onclick="document.location='index.php?class=PessoaForm'">Novo</button>
+        </div>
+        <div class="AB-8-2 L">
+          <button  class="AB-8-2-1" type="submit">Salvar</button>
+       </div>
+        <div class="AB-8-3 L">
+          <button class="AB-8-3-1" type="button" onclick="document.location='index.php?class=PessoaList'">Listar</button>
+        </div>
+      </div>
+    </form>
+    <div class="AC">
+      {registro}
+    </div>
+  </div>
+</body>
+</html>

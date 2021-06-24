@@ -1,0 +1,102 @@
+html,body,div,form,span,label,input,select,button{
+    color: #000;
+    margin: 0;
+    outline: 0;
+    border: 0;
+    padding: 0;
+    font-size: 22px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: block;
+    float: none;
+    position: static;
+    box-sizing: content-box;
+}
+div,form,span,label,input,select,button{
+    background-color: #cccccc;
+}
+.A{
+    margin: 20px 0 0 20px;
+    border: 2px solid #0000ff;
+    border-radius: 5px;
+    padding: 5px;
+    height: 420px;
+    width: 450px;
+
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: 35px 350px 35px;
+}
+
+.AB{
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: repeat(7,35px)70px;
+    row-gap: 5px;
+}
+.AA-1{
+    height: 35px;
+}
+.P{
+    display: grid;
+    grid-template-columns: 145px 290px;
+    column-gap: 15px;
+}
+.AB-8{
+    grid-template-columns: repeat(5,78px);
+}
+.AB-8-1{
+    grid-column: 2/3;
+}
+.L{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input,select{
+    border-bottom: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #0000ff;
+    border-left: 2px;
+    border-left-style: solid;
+    border-left-color: #0000ff;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+}
+input:focus,input:hover,select:hover{
+    background-color: #9999ff;
+}
+select{
+    background: url(../img/caret-down.png) no-repeat center right;
+    background-size: 16px;
+}
+button{
+    border-radius: 10px;
+    height: 35px;
+    width: 66px;
+    background-color: #808080;
+    color:#fff;
+}
+button:hover{
+    text-shadow: 0 0 6px #0000ff, 0 0 6px #0000ff;
+    outline: 2px solid #0000ff;
+    cursor: pointer;
+}
+.registro-falhou{
+    color: #ff0000;
+    background-color: #ff9999;
+    height: 35px;
+    min-width: 250px;
+    border-radius: 10px;
+}
+.registro-salvo{
+    color: #009900;
+    background-color: #99ff99;
+    height: 35px;
+    min-width: 250px;
+    border-radius: 10px;
+}
+
+
+

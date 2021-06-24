@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de pessoa</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="css/form.css" rel="stylesheet" type="text/css" media="screen"/>
+</head>
+<body>
+  <form class="pai" enctype="multipart/form-data" method="POST" action="pessoa_form.php?action=save">
+    
+    <div class="filho1 filho">
+      <span class="neto1">Código</span>
+      <input class ="neto2 neto" name="id" readonly="1" type="text" value="{id}">
+    </div>
+
+    <div class="filho2 filho">
+      <span class="neto3">Nome</span>
+      <input class="neto4 neto" name="nome" type="text" value="{nome}">
+    </div>
+
+    <div class="filho3 filho">
+      <span class="neto5">Endereço</span>
+      <input class="neto6 neto" name="endereco" type="text" value="{endereco}">
+    </div>
+
+    <div class="filho4 filho">
+      <span class="neto7">Bairro</span>
+      <input class="neto8 neto" name="bairro" type="text" value="{bairro}">
+    </div>
+
+    <div class="filho5 filho">
+      <span class="neto9">Telefone</span>
+      <input class="neto10 neto" name="telefone" type="text" value="{telefone}">
+    </div>
+
+    <div class="filho6 filho">
+      <span class="neto11">Email</span>
+      <input class="neto12 neto" name="email" type="text" value="{email}">
+    </div>
+
+    <div class="filho7 filho">
+      <span class="neto13">Cidade</span>
+      <select class="neto14 neto" name="id_cidade">{cidades}</select>
+    </div>
+
+    <div class="filho8 filho">
+      <div class="neto15">
+        <button  type="submit">Salvar</button>
+      </div>
+      <div class="neto16">
+        <button type="button" onclick="document.location='pessoa_list.php'">Listar</button>
+      </div>
+    </div>
+  </form>
+</body>
+</html>

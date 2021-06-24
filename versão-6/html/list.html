@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro de pessoa</title>
+    <link href="css/reset.css" rel="stylesheet" type="text/css" media="screen"/>
+    <link href="css/list.css" rel="stylesheet" type="text/css" media="screen"/>
+</head>
+<body>
+    <table>
+        <thead>
+            <tr>
+                <th class="th" colspan="2">
+                    <button type="button" onclick="document.location='pessoa_form.php'">NOVO</button>
+                </th>
+                <th class="th">ID</th>
+                <th class="th">Nome</th>
+                <th class="th">Endereço</th>
+                <th class="th">Bairro</th>
+                <th class="th">Telefone</th>
+                <th class="th">Email</th>
+                <th class="th">Cidade</th>
+            </tr>
+        </thead>
+        <tbody>
+            {itens}
+        </tbody>
+    </table>
+</body>
+</html>

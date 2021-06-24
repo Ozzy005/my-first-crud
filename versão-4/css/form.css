@@ -1,0 +1,59 @@
+.pai {
+    height: 350px;
+    width: 450px;
+    color: #ffffff;
+    background-color: #808080;
+    margin: 20px 0 0 20px;
+    padding: 5px;
+    border: 2px solid #00ffff;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: 450px;
+    grid-template-rows: repeat(7,35px)70px;
+    row-gap: 5px;
+}
+.filho{
+    display: grid;
+    grid-template-columns: 148.33px 296.66px; 
+    column-gap: 5px;
+}
+.filho8{
+    grid-template-columns: repeat(6,66.66px);
+    column-gap: 10px;
+}
+.neto15{
+    grid-column: 3/4;
+}
+.neto15,.neto16,span{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.neto:hover{
+    background-color: #00ffff;
+}
+button{
+    height: 35px;
+    width: 66.66px;
+    color:#fff;
+    background-color: #b3b3b3;
+    border: 0;
+    padding: 0;
+    border-radius: 10px;
+}
+button:hover{
+    text-shadow: 0 0 6px #00ffff, 0 0 6px #00ffff;
+    outline: 2px solid #00ffff;
+    cursor: pointer;
+}
+span,button,.neto{
+    font-size: 22px;
+}
+.retorn_op{
+    width: 450px;
+    margin: 20px 0 0 20px;
+}
+
+
+
+

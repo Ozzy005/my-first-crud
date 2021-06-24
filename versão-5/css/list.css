@@ -1,0 +1,50 @@
+button,table{
+    margin: 0px;
+    border: 0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 16px;
+}
+table{
+    min-width: 500px;
+    margin: 20px 0 0 20px;
+}
+tr{ 
+    border-bottom: 1px solid #00ffff;
+}
+.th{
+    font-weight: 600;
+}
+.tr-body:hover{
+    background-color: #00ffff;
+}
+th,td{
+    min-width: 40px;
+    height: 40px;
+    padding: 5px;
+    text-align: center;
+    vertical-align: middle;
+}
+img{
+    width: 20px;
+    height: 20px;
+}
+img:hover{
+    width: 30px;
+    height: 30px;
+}
+button{
+    width: 60px;
+    height: 30px;
+    color: #fff;
+    background-color: #b3b3b3;
+    border-radius: 10px;
+}
+button:hover{
+    text-shadow: 0 0 6px #00ffff, 0 0 6px #00ffff;
+    outline: 2px solid #00ffff;
+    cursor: pointer;
+}
+
+
+
